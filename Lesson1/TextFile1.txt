@@ -1,0 +1,121 @@
+﻿Console.Write("bootcamp");
+Console.Write("bootcamp");
+
+Console.WriteLine();
+
+// Variables
+
+string bootcamp = "bootcamp";
+
+Console.Write(bootcamp);
+Console.WriteLine(":");
+Console.WriteLine("004");
+
+int son = 12;
+int son2 = 13;
+
+int yigindi = son + son2;
+
+Console.WriteLine(yigindi);
+
+float a = 2.2f;
+float b = 1.2f;
+
+Console.WriteLine(a + b);
+
+int x = 2;
+int y = 3;
+
+bool b1 = true;
+bool b2 = false;
+
+bool b3 = x == 3;
+Console.WriteLine(b3);
+
+x = 4;
+bool b4 = x == 4;
+Console.WriteLine(b4);
+
+//string x = 5;
+
+Console.WriteLine("---if---");
+
+bool shart = x == 3;
+
+if(shart)
+    Console.WriteLine("ha");
+
+bool shartAksi = shart == false;
+
+if (shartAksi)
+    Console.WriteLine("yoq");
+
+if (shart)
+{
+    Console.WriteLine("ha");
+    Console.WriteLine(x);
+}
+else
+{
+    Console.WriteLine("yoq");
+}
+
+Console.WriteLine("----");
+
+int c = x + y;
+c = 2 + 5;
+c = 7 / 3;
+c = 3 - 3;
+c = 10 % 3;
+
+x = 3;
+if (x + y == 5)
+{
+    x = x * 2;
+}
+else
+{
+    x = 10 % y;
+}
+
+Console.WriteLine(x);
+
+Console.WriteLine("+=, /=, %=, *=");
+
+x = x * 2;
+x *= 2;
+
+Console.WriteLine("++, --");
+
+x = x + 1;
+x += 1;
+x++;
+
+x = x - 1;
+x -= 1;
+x--;
+
+int x1 = 1;
+int x2 = 2;
+int x3 = 3;
+int x14 = 4;
+
+// Massiv
+
+string[] satrlar = { "s1", "s2", "s3" };
+
+string satr1 = satrlar[1];
+
+Console.WriteLine(satr1);
+
+int[] tuplam = { 1, 2, 3, 4, 5 };
+//int[] tuplam = { 1, 2, 3, 12, 5 };
+
+Console.WriteLine(tuplam[3]);
+
+tuplam[3] = 12;
+
+Console.WriteLine(tuplam[3]);
+
+
+
